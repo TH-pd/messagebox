@@ -1,0 +1,11 @@
+　メッセージボックス
+　サンプル
+
+　テキスト1：//text1//
+　　counter1：//win1// / //draw1// / //lose1//
+　　counter1：//win2// / //draw2// / //lose2//
+
+
+　　合計　//total_win//勝//total_lose//敗
+
+勝率：//win_per//%

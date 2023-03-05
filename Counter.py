@@ -27,7 +27,7 @@ def calcform(form, vars):
     
     m = re.search(r'\(.*\)', form)
     if (m != None):
-        return calcform(form[:m.start()] + str(calcform(m.group()[1:-1]), vars) + form[m.end():], vars)
+        return calcform(form[:m.start()] + str(calcform(m.group()[1:-1], vars)) + form[m.end():], vars)
     
     m = re.search(r'\+', form)
     if (m != None):

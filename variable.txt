@@ -1,0 +1,20 @@
+text1:text:テキスト
+win1:int:0
+draw1:int:0
+lose1:int:0
+win2:int:0
+draw2:int:0
+lose2:int:0
+total_win:int:0
+win_per:int:0
+total_lose:int:0
+
+textbox:テキスト1:text1
+button:counter1\nclear:win1=0, draw1=0, lose1 = 0, total_win = win1+win2, total_lose=lose1+lose2
+button:Win1:win1++, total_win = win1+win2, win_per = 100 * total_win / total_win
+button:Lose1:lose1+=1, total_lose=lose1+lose2, win_per = 100 * total_win / (total_win+total_lose+draw1+draw2)
+button:counter2\nclear:win2=0, draw2=0, lose2 = 0
+button:Win2:win2++, total_win = win1+win2, win_per = 100 * total_win / (total_win+total_lose+draw1+draw2)
+button:Lose2:lose2+=1, total_lose=lose1+lose2, win_per = 100 * total_win / (total_win+total_lose+draw1+draw2)
+button:保存:save()
+button:更新:
