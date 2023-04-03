@@ -7,6 +7,8 @@
 ![variable](https://github.com/TH-pd/messagebox/blob/main/sample/default.png)
 
 
+
+
 ## variable.txt
 * 変数の宣言や，テキストボックス・ボタンの設定を行います．
 * １行あたり1つの変数宣言又はオブジェクトの宣言まで可能です．
@@ -31,6 +33,9 @@
 * また，使用できる演算子は+-\*^()及び++, --, +=, -=のみです（文字列については加算のみ）.
 * 予め用意されている関数は現状save()のみです．
 * save()関数は各変数の値をbkp.txtに書き出します．
+![variable](https://github.com/TH-pd/messagebox/blob/main/sample/variable.png)
+
+
 
 
 
@@ -52,4 +57,10 @@
   * str_color : ボタンの文字色です．ボタンごとの色変更は現在未対応です．
   * bg_color  : ボタンの背景色です．
   * button_size_x : ボタンの横幅です．1は半角「0」1文字分の横幅です．
+![variable](https://github.com/TH-pd/messagebox/blob/main/sample/config.png)
   
+  
+![variable](https://github.com/TH-pd/messagebox/blob/main/sample/exe1.png)
+
+![variable](https://github.com/TH-pd/messagebox/blob/main/sample/exe2.png)
+
