@@ -4,7 +4,7 @@
 ## default.txt
 * 表示するテキストを入力してください．
 * アルファベット及びアンダーバーで構成された単語をprefix（デフォルトでは「//」）で囲むことで変数扱いできます．
-![variable](https://github.com/TH-pd/messagebox/blob/main/img/default.png)
+![variable](https://github.com/TH-pd/messagebox/blob/main/sample/default.png)
 
 
 ## variable.txt
